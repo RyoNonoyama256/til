@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  filed-anaconda:
+    container_name: my_anaconda
+    build: .
+    ports:
+    - "8888:8888"
+    volumes:
+    - type: bind
+      source: ../
+      target: /workdir
