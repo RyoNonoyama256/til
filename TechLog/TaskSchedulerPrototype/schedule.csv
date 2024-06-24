@@ -1,0 +1,19 @@
+date,type,title,start,end,status
+2024-06-24,planned,Wake up,06:00,06:30,done
+2024-06-24,planned,Breakfast,06:30,07:00,done
+2024-06-24,planned,Work,07:00,09:00,done
+2024-06-24,planned,Break,09:00,09:30,active
+2024-06-24,planned,Work,09:30,12:00,done
+2024-06-24,planned,Lunch,12:00,12:30,done
+2024-06-24,planned,Work,12:30,18:00,done
+2024-06-24,planned,Dinner,18:00,19:00,done
+2024-06-24,planned,Free Time,19:00,21:00,done
+2024-06-24,actual,Wake up,06:00,06:15,done
+2024-06-24,actual,Breakfast,06:15,06:45,done
+2024-06-24,actual,Work,06:45,09:15,done
+2024-06-24,actual,Break,09:15,09:45,done
+2024-06-24,actual,Work,09:45,12:15,done
+2024-06-24,actual,Lunch,12:15,12:45,done
+2024-06-24,actual,Work,12:45,18:15,done
+2024-06-24,actual,Dinner,18:15,19:15,done
+2024-06-24,actual,Free Time,19:15,21:15,done
