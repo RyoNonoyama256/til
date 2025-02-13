@@ -1,12 +1,12 @@
-class Cat:
-    pass
+class Car():
+    def exclaim(self):
+        print("I'm a Car!")
 
-cat = Cat()
-another_cat = Cat()
+class Yugo(Car):
+    def exclaim(self):
+        print("I'm a Yugo!")
 
-cat.name = "Tama"
-cat.nemesis = another_cat
-another_cat.name = "Jiro"
-
-print("cat name: " + cat.name)
-print("cat nemesis name: " + cat.nemesis.name)
+car = Car()
+yugo = Yugo()
+car.exclaim()
+yugo.exclaim()
