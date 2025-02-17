@@ -1,12 +1,11 @@
-class Car():
-    def exclaim(self):
-        print("I'm a Car!")
+class Parson():
+    def __init__(self, name):
+        self.name = name
 
-class Yugo(Car):
-    def exclaim(self):
-        print("I'm a Yugo!")
+class EmailParson(Parson):
+    def __init__(self, name, email):
+        super().__init__(name)
+        self.email = email
 
-car = Car()
-yugo = Yugo()
-car.exclaim()
-yugo.exclaim()
+ep = EmailParson("nono", "nono@email")
+print(ep.name, ep.email)
